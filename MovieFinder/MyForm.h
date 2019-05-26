@@ -780,10 +780,10 @@ namespace MovieFinder {
 		else if (user.percent == -1) {
 			percentLabel->Visible = false;
 		}
-		posterPictureBox->ImageLocation = "C:\\Users\\QWERTY\\source\\repos\\MovieFinder\\MovieFinder\\posters\\" + marshal_as<String^>(user.recommendation) + ".jpg";
+		posterPictureBox->ImageLocation = "C:\\Users\\Dell XPS 9570\\source\\repos\\dvornikov-d-a\\MovieFinder\\MovieFinder\\posters\\" + marshal_as<String^>(user.recommendation) + ".jpg";
 		posterPictureBox->Visible = true;
 		if (user.recommendation != "Ничего не найдено") {
-			describeLabel->Text = File::ReadAllText(L"C:\\Users\\QWERTY\\source\\repos\\MovieFinder\\MovieFinder\\describes\\" + marshal_as<String^>(user.recommendation) + ".txt", Encoding::Default);
+			describeLabel->Text = File::ReadAllText(L"C:\\Users\\Dell XPS 9570\\source\\repos\\dvornikov-d-a\\MovieFinder\\MovieFinder\\describes\\" + marshal_as<String^>(user.recommendation) + ".txt", Encoding::Default);
 			describeLabel->Visible = true;
 		}
 		else {
@@ -874,10 +874,10 @@ private: System::Void RandomButton_Click(System::Object^ sender, System::EventAr
 	else if (user.percent == -1) {
 		percentLabel->Visible = false;
 	}
-	posterPictureBox->ImageLocation = "C:\\Users\\QWERTY\\source\\repos\\MovieFinder\\MovieFinder\\posters\\" + marshal_as<String^>(user.recommendation) + ".jpg";
+	posterPictureBox->ImageLocation = "C:\\Users\\Dell XPS 9570\\source\\repos\\dvornikov-d-a\\MovieFinder\\MovieFinder\\posters\\" + marshal_as<String^>(user.recommendation) + ".jpg";
 	posterPictureBox->Visible = true;
 	if (user.recommendation != "Ничего не найдено") {
-		describeLabel->Text = File::ReadAllText(L"C:\\Users\\QWERTY\\source\\repos\\MovieFinder\\MovieFinder\\describes\\" + marshal_as<String^>(user.recommendation) + ".txt", Encoding::Default);
+		describeLabel->Text = File::ReadAllText(L"C:\\Users\\Dell XPS 9570\\source\\repos\\dvornikov-d-a\\MovieFinder\\MovieFinder\\describes\\" + marshal_as<String^>(user.recommendation) + ".txt", Encoding::Default);
 		describeLabel->Visible = true;
 	}
 	else {
